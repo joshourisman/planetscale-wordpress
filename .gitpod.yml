@@ -1,0 +1,8 @@
+github:
+  prebuilds:
+    branches: true
+gitConfig:
+  alias.st: status
+  alias.l: log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen%cn%Creset %Cblue%cr%Creset' --abbrev-commit --date=relative
+tasks:
+  - before: brew install flyctl
